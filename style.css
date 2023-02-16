@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: 1px dashed red;
+}
+
+nav {
+  background-color: aqua;
+  min-height: 100px;
+}
+
+.container {
+  width: 1000px;
+  min-height: 100px;
+  background-color: yellow;
+  margin: 0 auto;
+}
+
+header {
+  min-height: 100px;
+  background-color: red;
+}
+
+aside {
+  background-color: orange;
+  min-height: 100px;
+  flex: 1;
+}
+
+main {
+  background-color: green;
+  min-height: 100px;
+  flex: 3;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+.nav-primary,
+.nav-secondary {
+  background-color: darkkhaki;
+  min-height: 100px;
+  flex: 1;
+}
+
+.menu {
+  list-style: none;
+}
+
+.circle {
+  width: 80px;
+  aspect-ratio: 1 / 1;
+  border-radius: 50%;
+  background-color: rebeccapurple;
+}
